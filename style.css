@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('sky.jpg');
+    background-size: cover;
+}
+
+.container{
+    width: 500px;
+    height: min-content;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 60px;
+}
+
+.search-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box input{
+    width: 80%;
+    height: 25px;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #000;
+    background-color: lightblue;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.search-box input::placeholder{
+    color: #000;
+}
+
+.search-box button{
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
