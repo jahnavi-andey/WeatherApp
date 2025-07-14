@@ -4,6 +4,7 @@
 
 # Tech Stack
 
-HTML3
-CSS
-JavaScript
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **OpenWeatherMap API**
